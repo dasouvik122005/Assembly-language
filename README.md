@@ -1,2 +1,3 @@
 # Assembly-language
-Here I will discuss all program about COA(Computer Organisation and Architecture).
+Here I will discuss all programs about COA(Computer Organisation and Architecture).
+All these programs are run in a software named"QtSpim"
