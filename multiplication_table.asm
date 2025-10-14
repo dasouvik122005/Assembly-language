@@ -1,8 +1,8 @@
 .data
 msg: .asciiz "Multiplication Table of 1-10"
 msg1: .asciiz "\n"
-msg2: .asciiz "X"
-msg3: .asciiz "="
+msg2: .asciiz " X "
+msg3: .asciiz " = "
 
 .text
 .globl main
