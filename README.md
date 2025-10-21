@@ -6,21 +6,18 @@
 
 This repository is a collection of assembly language programs written for educational purposes, focusing on the fundamental concepts of **Computer Organization and Architecture (COA)**.
 
-These programs are designed to be run on an LC-3 (Little Computer 3) simulator, such as **LCsim**, to demonstrate various computational and logical operations at a low level.
+These programs are written for the **MIPS** architecture and are designed to be run on the **QtSpim** simulator to demonstrate various computational and logical operations at a low level.
 
 ## Software Requirement
 
-To run these programs, you will need an **LC-3 simulator**. The original development was done using a simulator named `LCsim`. You can use any compatible LC-3 simulator, such as:
-* [LC-3 Web Simulator](https://wchargin.com/lc3web/)
-* [PennSim](https://www.cis.upenn.edu/~milom/cse240-Fall06/pennsim/PennSim.jar)
-* The `lc3tools` package (which includes `lc3as` and `lc3sim`)
+To run these programs, you will need the **QtSpim** simulator. You can download it from its [official SourceForge repository](http://spimsimulator.sourceforge.net/).
 
 ## How to Run
 
-1.  **Open your LC-3 Simulator:** Launch the simulator of your choice.
-2.  **Assemble:** Most simulators have an "Assemble" option. Load one of the `.asm` files (e.g., `add_sum.asm`) into the assembler. This will convert the assembly code into machine code (often creating an `.obj` file).
-3.  **Load:** Load the assembled object file (`.obj`) into the simulator's memory.
-4.  **Run:** Use the simulator's controls (e.g., `Run`, `Step Into`, `Step Over`) to execute the program. You can monitor the registers and memory to see the program's operations in real-time.
+1.  **Open QtSpim:** Launch the `QtSpim` application.
+2.  **Load File:** Go to `File` > `Load File` (or `Reinitialize and Load File`) and select one of the `.asm` files from this repository (e.g., `add_sum.asm`).
+3.  **Run:** Press the `Run` button (often a green play icon) or press `F5` to execute the program.
+4.  **View Output:** The program's output will appear in the `Console` window. You can also monitor the state of the registers and memory in the main QtSpim window.
 
 ## Program List
 
@@ -55,7 +52,3 @@ Contributions are welcome! If you have new programs, fixes, or improvements, ple
 3.  Commit your changes (`git commit -m 'Add some feature'`).
 4.  Push to the branch (`git push origin feature/YourFeature`).
 5.  Open a Pull Request.
-
-## License
-
-This project is open-source and available for educational use. You may specify a license if you wish (e.g., [MIT License](https://opensource.org/licenses/MIT)).
